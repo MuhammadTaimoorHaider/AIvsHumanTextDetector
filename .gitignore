@@ -21,3 +21,8 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+# Internal/duplicate artifacts
+ai_classifier_deploy/
+ai_classifier_deploy.zip
+fixed models/
