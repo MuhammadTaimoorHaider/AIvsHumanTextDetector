@@ -1,0 +1,17 @@
+{
+    "model_name": "Linear SVM",
+    "model_type": "LinearSVC",
+    "training_date": "2025-11-29 17:17:01",
+    "dataset_size": 44868,
+    "training_size": 35894,
+    "test_size": 8974,
+    "features": 5000,
+    "performance": {
+        "accuracy": 0.9929797191887676,
+        "f1_score": 0.9929736416450079,
+        "cv_mean_f1": 0.9939776257170696,
+        "cv_std_f1": 0.0008255951208191512
+    },
+    "parameters": "{'C': 1.0, 'class_weight': None, 'dual': 'auto', 'fit_intercept': True, 'intercept_scaling': 1, 'loss': 'squared_hinge', 'max_iter': 1000, 'multi_class': 'ovr', 'penalty': 'l2', 'random_state': 42, 'tol': 0.0001, 'verbose': 0}",
+    "training_time_seconds": 0.6448554992675781
+}

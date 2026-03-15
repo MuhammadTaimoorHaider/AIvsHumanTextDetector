@@ -1,0 +1,91 @@
+======================================
+TEST SAMPLES FOR AI vs HUMAN CLASSIFIER
+======================================
+
+Copy and paste these into your deployed web app to test it!
+
+======================================
+SAMPLE 1: HUMAN TEXT (Casual/Personal)
+======================================
+
+Hey everyone! I just wanted to share my experience with the new restaurant downtown. The food was absolutely amazing, and the service was top-notch. I highly recommend trying their signature pasta dish - it's to die for! The ambiance was cozy and perfect for a date night. Definitely going back next weekend with my friends!
+
+
+======================================
+SAMPLE 2: AI-GENERATED TEXT (Formal/Technical)
+======================================
+
+Artificial intelligence represents a significant advancement in computational technology. Machine learning algorithms can process vast amounts of data and identify patterns that would be difficult for humans to detect manually. These systems utilize neural networks that are trained on extensive datasets to improve their performance over time. The applications of AI span numerous industries including healthcare, finance, and transportation.
+
+
+======================================
+SAMPLE 3: HUMAN TEXT (Informal/Social Media Style)
+======================================
+
+OMG you guys won't believe what happened today!!! I was walking my dog in the park when I saw my high school crush. We talked for like an hour and he asked for my number!! I'm literally shaking right now lol. Should I text him first or wait??? Help me decide! 😅
+
+
+======================================
+SAMPLE 4: AI-GENERATED TEXT (Educational)
+======================================
+
+Climate change is a complex phenomenon that results from various anthropogenic activities. The increase in greenhouse gas emissions, primarily carbon dioxide and methane, has led to a measurable rise in global average temperatures. This warming trend has far-reaching consequences for ecosystems, weather patterns, and sea levels. Mitigation strategies include transitioning to renewable energy sources and implementing sustainable practices.
+
+
+======================================
+SAMPLE 5: HUMAN TEXT (Conversational)
+======================================
+
+I've been trying to learn guitar for the past three months and it's so much harder than I thought! My fingers hurt like crazy and I still can't play a full song without messing up. But you know what? I'm not giving up. My teacher says I'm making good progress, so that's encouraging. Anyone else learning an instrument? How long did it take you to feel comfortable?
+
+
+======================================
+SAMPLE 6: AI-GENERATED TEXT (Business)
+======================================
+
+The implementation of digital transformation strategies has become imperative for organizations seeking to maintain competitive advantage in the modern marketplace. Cloud computing infrastructure enables scalable solutions that facilitate operational efficiency. Data analytics platforms provide actionable insights that inform strategic decision-making processes. Integration of these technologies requires comprehensive change management and stakeholder engagement.
+
+
+======================================
+SAMPLE 7: HUMAN TEXT (Story/Experience)
+======================================
+
+So last night was absolutely crazy! We were having dinner when suddenly the lights went out. Turns out there was a massive storm that knocked out power for the entire neighborhood. We ended up lighting candles and playing board games by candlelight. It was actually really fun and reminded me of when I was a kid. Sometimes the best memories come from unexpected moments!
+
+
+======================================
+SAMPLE 8: MIXED/AMBIGUOUS TEXT
+======================================
+
+The rapid advancement of technology has fundamentally changed how we communicate. Social media platforms allow people to connect instantly across the globe. I remember when I had to wait days for letters to arrive, but now I can video call my family anytime. It's amazing but also a bit overwhelming sometimes. We need to find balance between staying connected and taking breaks from screens.
+
+
+======================================
+EXPECTED RESULTS:
+======================================
+
+Samples 1, 3, 5, 7 → Should classify as HUMAN (0)
+Samples 2, 4, 6 → Should classify as AI (1)
+Sample 8 → Could go either way (mixed characteristics)
+
+
+======================================
+NOTES:
+======================================
+
+- Human text typically has:
+  * Casual language, slang, contractions
+  * Personal anecdotes and emotions
+  * Conversational tone
+  * Grammar/spelling variations
+  * Exclamation marks, emojis
+  
+- AI text typically has:
+  * Formal, structured language
+  * Technical vocabulary
+  * Consistent grammar
+  * Objective tone
+  * Complex sentence structures
+  * No personal experiences
+
+======================================
